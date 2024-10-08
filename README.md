@@ -22,7 +22,8 @@ Make sure to have the above tech stacks setup on machine before next step.
 # Getting Started
 Execute the below steps in the given order, do not skip any step.
 1.	Run `composer install` to install the dependecies
-2.	Create a new database in the localhost, and add it along with the db user credentials to the .env file as show below,
+2.  Rename the `.env.example` file to `.env`
+3.	Create a new database in the localhost, and add it along with the db user credentials to the .env file as show below,
     ```
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
@@ -31,10 +32,10 @@ Execute the below steps in the given order, do not skip any step.
     DB_USERNAME=root
     DB_PASSWORD=root
     ```
-3.	Run `php artisan migrate` to run database migration scripts
-4.	Run `php artisan db:seed` to seed the test user to the user's table.
-5.  Let's run the application by serving it on localhost port 8000 `php artisan serve`
-6.  Use the below credentials to login,
+4.	Run `php artisan migrate` to run database migration scripts
+5.	Run `php artisan db:seed` to seed the test user to the user's table.
+6.  Let's run the application by serving it on localhost port 8000 `php artisan serve`
+7.  Use the below credentials to login,
     ```
     URL:localhost:8000
     Email:ranulrx@gmail.com
